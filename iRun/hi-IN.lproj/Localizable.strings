@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  ExpenseMobile
+
+  Created by Shibin S on 03/01/15.
+  Copyright (c) 2015 Shibin. All rights reserved.
+*/
+
+"Overview" = "विहंगावलोकन";
+
+"History" = "हिस्ट्री";
+
+"Distribution" = "वितरण";
+
+"Statistics" = "आंकड़े";
+
+"Settings" = "सेटिंग्स";
+
+"Tour" = "यात्रा";
+
+"General" = "सामान्य";
+
+"Category" = "श्रेणी";
+
+"Currency" = "मुद्रा";
+
+"Theme" = "रंग विषय";
+
+"Export Data" = "निर्यात डाटा";
+
+"Reset All Data" = "सभी डेटा रीसेट";
+
+"Feedback" = "प्रतिक्रिया";
+
+"Rate Us" = "दर एप्लिकेशन को";
+
+"Contact Us" = "हमसे संपर्क करें";
+
+"Grouping" = "दलबंदी";
+
+"Language" = "भाषा";
+
+"Mode" = "व्यय मोड";
+
+"Reminder" = "रिमाइंडर";
+
+"Weekly" = "साप्ताहिक";
+
+"Monthly" = "मासिक";
+
+"Yearly" = "सालाना";
+
+"Default" = "डिफ़ॉल्ट";
+
+"English" = "अंग्रेजी";
+
+"Daily Reminder" = "दैनिक अनुस्मारक";
+
+"Expense" = "व्यय";
+
+"Expense And Income" = "खर्च और आय";
+
+"Time of day" = "दिन के समय";
+
+"Adapted Reminder" = "स्वनिर्धारित अनुस्मारक";
+
+"Income" = "आय";
+
+"Add Category" = "श्रेणी में जोड़ें";
+
+"Apply" = "लगाओ";
+
+"If you have any queries or suggestions for improvement, please provide below." = "आप सुधार के लिए किसी भी प्रश्न या सुझाव है, नीचे प्रदान करें।";
+
+"Type your query / suggestion here." = "आपकी क्वेरी लिखें।";
+
+"Categories" = "श्रेणियाँ";
+
+"OK" = "ठीक";
+
+"Cancel" = "रद्द करना";
+
+"Additional Details" = "अतिरिक्त विवरण";
+
+"App Version %@" = "अनुप्रयोग संस्करण %@";
+
+"Copyright © %@" = "कॉपीराइट © %@";
+
+"Edit Category" = "संपादित श्रेणी";
+
+"Please enter a category name." = "इनपुट श्रेणी का नाम कृपया ।";
+
+"The category you entered already exists." = "श्रेणी में पहले से ही मौजूद है ।";
+
+"The theme has been applied." = "रंग विषय लागू किया जाता है ।";
+
+"Caution" = "सावधानी ।";
+
+"This will delete all data from your app. Do you wish to continue?" = "यह अपने अनुप्रयोग से सभी डेटा को नष्ट करेगा।. क्या आप जारी रखना चाहते हैं??";
+
+"Your data has been reset." = "आपका डेटा रीसेट कर दिया गया है ।";
+
+"An error has occured!. Please try again." = "एक त्रुटि हो गई !. पुन: प्रयास करें ।";
+
+"Do you want to delete the category?" = "आप श्रेणी को नष्ट करना चाहते हैं?";
+
+"Do you want to delete the entry?" = "आप प्रविष्टि को नष्ट करना चाहते हैं?";
+
+"Do you want to delete the record?" = "आप रिकॉर्ड को नष्ट करना चाहते हैं?";
+
+"Select Time" = "प्रवर समय";
+
+"Name" = "नाम";
+
+"Type" = "प्रकार";
+
+"Color" = "रंग";
+
+"Apply theme color to category icons" = "Appliquer la couleur de thème à des icônes de catégorie";
+
+"Support Mail" = "समर्थन मेल";
+
+"Compatible with iOS 7 and above." = "इसके बाद के संस्करण आईओएस 7 के अनुकूल है ।";
+
+"Send Mail" = "ईमेल भेजें";
+
+"Please enter your query and/or suggestions." = "Se il vous plaît entrez votre requête et / ou suggestions.";
+
+"You have not added expense for the month of %@.\n\nTap on + to add now." = "Vous ne avez pas ajouté dépenses pour le mois de %@.\n\nSur + pour ajouter maintenant.";
+
+"You have not added income or expense for the month of %@.\n\nTap on + to add now." = "Vous ne avez pas ajouté produits ou de charges pour le mois de %@. \n\nTapez sur + pour ajouter maintenant.";
+
+"No expense is added for this month. Tap on + button to add." = "Aucune charge ne est ajouté pour ce mois. Appuyez sur le bouton + pour ajouter.";
+
+"No expense or income is added for this month. Tap on + button to add." = "Aucune dépense ou un revenu est ajouté pour ce mois. Appuyez sur le bouton + pour ajouter.";
+
+"Total Expense : %@ %0.2f" = "Le total des charges : %@ %0.2f";
+
+"Total Income : %@ %0.2f" = "Revenu total : %@ %0.2f";
+
+"You saved %@ %0.2f in the month of %@." = "Vous avez sauvé %@ %0.2f au mois de %@.";
+
+"You spend %@ %0.2f extra in the month of %@." = "Vous dépenser %@ %0.2f de plus au cours du mois de %@.";
+
+"You earned %@ %0.2f in the month of %@" = "Vous avez gagné %@ %0.2f au mois de %@";
+
+"You spend %@ %0.2f in the month of %@" = "Vous passez %@ %0.2f au mois de %@";
+
+"Categories" = "श्रेणियाँ";
+
+"Add New Category" = "नई श्रेणी जोड़ें";
+
+"Date" = "दिनांक";
+
+"Notes" = "टिप्पणियाँ";
+
+"Today" = "टुडे";
+
+"Yesterday" = "यस्टरडे";
+
+"Tomorrow" = "आने वाला कल";
+
+"Please enter expense for the category." = "श्रेणी का नाम दर्ज करें |";
+
+"No entries found.\n\nTap on + to add a new entry." = "कोई प्रविष्टि नहीं पाया।\n\nएक नई प्रविष्टि जोड़ने के लिए + पर ठोकर।";
+

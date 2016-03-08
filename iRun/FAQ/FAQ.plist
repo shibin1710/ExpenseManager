@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>question</key>
+		<string>Can I reorder the categories in Category menu?</string>
+		<key>answer</key>
+		<string>Yes. Just long press on the category an drag reorder categories. </string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Can I sync the expenses on other phones?</string>
+		<key>answer</key>
+		<string>No. We will be implemeting this feature in future updates.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>How to delete expense or income added?</string>
+		<key>answer</key>
+		<string>You can delete an expense or income in History menu by simply swioing left and tapping on Delete button.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Why can&apos;t I delete the category &apos;Others&apos;?</string>
+		<key>answer</key>
+		<string>&apos;Others&apos; category is the default category. If we delete a category, all the expense / income corresponding to the category will be moved to &apos;Others&apos; category.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>Can I transfer my records via mail?</string>
+		<key>answer</key>
+		<string>Yes. You can export the data from Settings screen and you can mail to any mail ID.</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>I want to group the expense history on weekly basis. Can I do that?</string>
+		<key>answer</key>
+		<string>Yes. Go to Settings &gt; General. Select type of Grouping</string>
+	</dict>
+	<dict>
+		<key>question</key>
+		<string>How to turn off notifications on this app.</string>
+		<key>answer</key>
+		<string>Go to Settings &gt; General and turn off Reminder option.</string>
+	</dict>
+</array>
+</plist>

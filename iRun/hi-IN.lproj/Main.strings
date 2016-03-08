@@ -1,0 +1,144 @@
+
+/* Class = "IBUILabel"; text = "✔︎"; ObjectID = "08W-dY-4zG"; */
+"08W-dY-4zG.text" = "✔︎";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "2a7-6u-Yr3"; */
+"2a7-6u-Yr3.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "3QE-Sg-rPc"; */
+"3QE-Sg-rPc.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Select Time"; ObjectID = "3Rs-XP-UIg"; */
+"3Rs-XP-UIg.text" = "Select Time";
+
+/* Class = "IBUILabel"; text = "No entries found. Tap on + to add a new entry."; ObjectID = "3c8-w8-pAd"; */
+"3c8-w8-pAd.text" = "No entries found. Tap on + to add a new entry.";
+
+/* Class = "IBUILabel"; text = "WED"; ObjectID = "8Ov-Dn-uGr"; */
+"8Ov-Dn-uGr.text" = "WED";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "8gx-tI-2KL"; */
+"8gx-tI-2KL.text" = "Label";
+
+/* Class = "IBUISegmentedControl"; Ezy-Ua-DWF.segmentTitles[0] = "Expense"; ObjectID = "Ezy-Ua-DWF"; */
+"Ezy-Ua-DWF.segmentTitles[0]" = "Expense";
+
+/* Class = "IBUISegmentedControl"; Ezy-Ua-DWF.segmentTitles[1] = "Income"; ObjectID = "Ezy-Ua-DWF"; */
+"Ezy-Ua-DWF.segmentTitles[1]" = "Income";
+
+/* Class = "IBUILabel"; text = "Still have queries / suggestion? Please provide below."; ObjectID = "He1-eV-vUj"; */
+"He1-eV-vUj.text" = "Still have queries / suggestion? Please provide below.";
+
+/* Class = "IBUISegmentedControl"; MLP-Tz-1jU.segmentTitles[0] = "Expense"; ObjectID = "MLP-Tz-1jU"; */
+"MLP-Tz-1jU.segmentTitles[0]" = "Expense";
+
+/* Class = "IBUISegmentedControl"; MLP-Tz-1jU.segmentTitles[1] = "Income"; ObjectID = "MLP-Tz-1jU"; */
+"MLP-Tz-1jU.segmentTitles[1]" = "Income";
+
+/* Class = "IBUITextView"; text = "expensemobile.inno@gmail.com"; ObjectID = "Msr-pB-cbq"; */
+"Msr-pB-cbq.text" = "expensemobile.inno@gmail.com";
+
+/* Class = "IBUILabel"; text = "Compatible with iOS 7 and above."; ObjectID = "Nyw-o5-fm9"; */
+"Nyw-o5-fm9.text" = "Compatible with iOS 7 and above.";
+
+/* Class = "IBUIViewController"; title = "Contact Us"; ObjectID = "ONy-ZY-g3R"; */
+"ONy-ZY-g3R.title" = "Contact Us";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "PcN-bu-6n6"; */
+"PcN-bu-6n6.title" = "Settings";
+
+/* Class = "IBUILabel"; text = "App Version  1.0.0"; ObjectID = "Pt2-bY-aFK"; */
+"Pt2-bY-aFK.text" = "App Version  1.0.0";
+
+/* Class = "IBUILabel"; text = "September 2014"; ObjectID = "Qyh-b1-tyP"; */
+"Qyh-b1-tyP.text" = "September 2014";
+
+/* Class = "IBUILabel"; text = "▼"; ObjectID = "Rpq-GC-8pR"; */
+"Rpq-GC-8pR.text" = "▼";
+
+/* Class = "IBUIButton"; normalTitle = "≡"; ObjectID = "Rsv-oU-6PZ"; */
+"Rsv-oU-6PZ.normalTitle" = "≡";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "XDy-Ch-iC7"; */
+"XDy-Ch-iC7.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Support Mail :"; ObjectID = "XTq-ux-u3N"; */
+"XTq-ux-u3N.text" = "Support Mail :";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "YA7-ve-IRT"; */
+"YA7-ve-IRT.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "≡≡"; ObjectID = "Yrm-26-NbT"; */
+"Yrm-26-NbT.normalTitle" = "≡≡";
+
+/* Class = "IBUISegmentedControl"; bjJ-gl-cuj.segmentTitles[0] = "Yearly"; ObjectID = "bjJ-gl-cuj"; */
+"bjJ-gl-cuj.segmentTitles[0]" = "Yearly";
+
+/* Class = "IBUISegmentedControl"; bjJ-gl-cuj.segmentTitles[1] = "Monthly"; ObjectID = "bjJ-gl-cuj"; */
+"bjJ-gl-cuj.segmentTitles[1]" = "Monthly";
+
+/* Class = "IBUISegmentedControl"; bjJ-gl-cuj.segmentTitles[2] = "Weekly"; ObjectID = "bjJ-gl-cuj"; */
+"bjJ-gl-cuj.segmentTitles[2]" = "Weekly";
+
+/* Class = "IBUILabel"; text = "Color"; ObjectID = "dOQ-TV-c7j"; */
+"dOQ-TV-c7j.text" = "Color";
+
+/* Class = "IBUIButton"; normalTitle = "≡"; ObjectID = "de5-ya-bND"; */
+"de5-ya-bND.normalTitle" = "≡";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "f6t-0d-TZj"; */
+"f6t-0d-TZj.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Expense Mobile ™"; ObjectID = "fyA-IH-qlH"; */
+"fyA-IH-qlH.text" = "Expense Mobile ™";
+
+/* Class = "IBUIBarButtonItem"; title = "Item"; ObjectID = "iRW-BY-TFU"; */
+"iRW-BY-TFU.title" = "Item";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "jaq-gy-myd"; */
+"jaq-gy-myd.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Send Mail"; ObjectID = "jmA-At-Isl"; */
+"jmA-At-Isl.normalTitle" = "Send Mail";
+
+/* Class = "IBUILabel"; text = "Tap on '+' to add new category."; ObjectID = "kEC-0g-ZfD"; */
+"kEC-0g-ZfD.text" = "Tap on '+' to add new category.";
+
+/* Class = "IBUILabel"; text = "⬇︎"; ObjectID = "mEA-f5-SHh"; */
+"mEA-f5-SHh.text" = "⬇︎";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "nDC-Bg-ojf"; */
+"nDC-Bg-ojf.text" = "Label";
+
+/* Class = "IBUINavigationItem"; title = " "; ObjectID = "nnW-i3-Ph5"; */
+"nnW-i3-Ph5.title" = " ";
+
+/* Class = "IBUILabel"; text = "PROFIT THIS MONTH"; ObjectID = "o0h-pB-LPJ"; */
+"o0h-pB-LPJ.text" = "PROFIT THIS MONTH";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "q0N-e2-OL1"; */
+"q0N-e2-OL1.normalTitle" = "OK";
+
+/* Class = "IBUIButton"; normalTitle = "≡"; ObjectID = "qBk-uh-e0K"; */
+"qBk-uh-e0K.normalTitle" = "≡";
+
+/* Class = "IBUITextView"; text = "Type your query / suggestion here."; ObjectID = "s2n-to-pBA"; */
+"s2n-to-pBA.text" = "Type your query / suggestion here.";
+
+/* Class = "IBUILabel"; text = "Type"; ObjectID = "t8S-G4-lN1"; */
+"t8S-G4-lN1.text" = "Type";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "tbh-6z-gcL"; */
+"tbh-6z-gcL.normalTitle" = "Cancel";
+
+/* Class = "IBUILabel"; text = "Apply theme color to category icons"; ObjectID = "v5Z-ml-MB8"; */
+"v5Z-ml-MB8.text" = "Apply theme color to category icons";
+
+/* Class = "IBUISegmentedControl"; wZp-4T-b0a.segmentTitles[0] = "Expense"; ObjectID = "wZp-4T-b0a"; */
+"wZp-4T-b0a.segmentTitles[0]" = "Expense";
+
+/* Class = "IBUISegmentedControl"; wZp-4T-b0a.segmentTitles[1] = "Income"; ObjectID = "wZp-4T-b0a"; */
+"wZp-4T-b0a.segmentTitles[1]" = "Income";
+
+/* Class = "IBUILabel"; text = "Copyright © 2015, A-One Mobility Solutions"; ObjectID = "zZt-Sg-mxr"; */
+"zZt-Sg-mxr.text" = "Copyright © 2015, A-One Mobility Solutions";

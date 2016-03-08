@@ -1,0 +1,233 @@
+/*
+  Localizable.strings
+  ExpenseMobile
+
+  Created by Shibin S on 03/01/15.
+  Copyright (c) 2015 Shibin. All rights reserved.
+*/
+
+"Overview" = "Vue d'ensemble";
+
+"History" = "Histoire";
+
+"Distribution" = "Distribution";
+
+"Statistics" = "Statistiques";
+
+"Settings" = "Paramètres";
+
+"Tour" = "Tour";
+
+"General" = "Général";
+
+"Category" = "Catégorie";
+
+"Currency" = "Monnaie";
+
+"Theme" = "Thème";
+
+"Export Data" = "Données d'Exportation";
+
+"Reset All Data" = "Réinitialiser toutes les données";
+
+"Feedback" = "Réaction";
+
+"Rate App" = "Nous évaluer";
+
+"Contact Us" = "Contactez-nous";
+
+"Grouping" = "Regroupement";
+
+"Language" = "Langue";
+
+"Mode" = "Mode";
+
+"Reminder" = "Rappel";
+
+"Weekly" = "Hebdomadaire";
+
+"Monthly" = "Mensuel";
+
+"Yearly" = "Annuel";
+
+"Default" = "Défaut";
+
+"English" = "Anglais";
+
+"Daily Reminder" = "Rappel quotidien";
+
+"Expense" = "Dépense";
+
+"Expense And Income" = "Dépenses et revenus";
+
+"Time of day" = "Heure de la journée";
+
+"Adapted Reminder" = "Rappel adaptée";
+
+"Income" = "Revenu";
+
+"Add Category" = "Ajouter la catégorie";
+
+"Apply" = "Appliquer";
+
+"If you have any queries or suggestions for improvement, please provide below." = "Si vous avez des questions ou des suggestions d'amélioration , se il vous plaît fournir ci-dessous ";
+
+"Type your query / suggestion here." = "Taper une requête / Suggestion ici.";
+
+"Categories" = "Catégories";
+
+"OK" = "D'Accord";
+
+"Cancel" = "Annuler";
+
+"Additional Details" = "Des Détails Supplémentaires";
+
+"App Version %@" = "App Versión %@";
+
+"Copyright © %@" = "Droit d'auteur © %@";
+
+"Edit Category" = "Modifier une catégorie";
+
+"Please enter a category name." = "Se il vous plaît entrez un nom de catégorie.";
+
+"The category you entered already exists." = "La catégorie que vous avez entré existe déjà.";
+
+"The theme has been applied." = "Le thème a été appliquée.";
+
+"Caution" = "Caution";
+
+"This will delete all data from your app. Do you wish to continue?" = "Cette opération va supprimer toutes les données de votre application . Voulez-vous continuer?";
+
+"Your data has been reset." = "Vos données ont été remis à zéro.";
+
+"An error has occured!. Please try again." = "Une erreur est survenue !. Se il vous plaît essayer à nouveau.";
+
+"Do you want to delete the category?" = "Voulez-vous supprimer la catégorie?";
+
+"Do you want to delete the entry?" = "Voulez-vous supprimer l'entrée?";
+
+"Do you want to delete the record?" = "Voulez-vous supprimer l'enregistrement?";
+
+"Select Time" = "Sélectionnez le temps";
+
+"Name" = "Nom";
+
+"Type" = "Type";
+
+"Color" = "Couleur";
+
+"Apply theme color to category icons" = "Appliquer la couleur de thème à des icônes de catégorie";
+
+"Support Mail" = "Soutien email";
+
+"Compatible with iOS 7 and above." = "Compatible avec iOS 7 et ci-dessus.";
+
+"Send Mail" = "Envoyez un courriel";
+
+"Please enter your query and/or suggestions." = "Se il vous plaît entrez votre requête et / ou suggestions.";
+
+"You have not added expense for the month of %@.\n\nTap on + to add now." = "Vous ne avez pas ajouté dépenses pour le mois de %@.\n\nSur + pour ajouter maintenant.";
+
+"You have not added income or expense for the month of %@.\n\nTap on + to add now." = "Vous ne avez pas ajouté produits ou de charges pour le mois de %@. \n\nTapez sur + pour ajouter maintenant.";
+
+"No expense is added for this month. Tap on + button to add." = "Aucune charge ne est ajouté pour ce mois. Appuyez sur le bouton + pour ajouter.";
+
+"No expense or income is added for this month. Tap on + button to add." = "Aucune dépense ou un revenu est ajouté pour ce mois. Appuyez sur le bouton + pour ajouter.";
+
+"Total Expense : %@ %0.2f" = "Le total des charges : %@ %0.2f";
+
+"Total Income : %@ %0.2f" = "Revenu total : %@ %0.2f";
+
+"You saved %@ %0.2f in the month of %@." = "Vous avez sauvé %@ %0.2f au mois de %@.";
+
+"You spend %@ %0.2f extra in the month of %@." = "Vous dépenser %@ %0.2f de plus au cours du mois de %@.";
+
+"You earned %@ %0.2f in the month of %@" = "Vous avez gagné %@ %0.2f au mois de %@";
+
+"You spend %@ %0.2f in the month of %@" = "Vous passez %@ %0.2f au mois de %@";
+
+"Categories" = "Catégories";
+
+"Add New Category" = "Ajouter une nouvelle catégorie";
+
+"Date" = "Date";
+
+"Notes" = "Remarques";
+
+"Today" = "Aujourd'hui";
+
+"Yesterday" = "Hier";
+
+"Tomorrow" = "Demain";
+
+"Please enter expense for the category." = "Se il vous plaît entrer dépense pour la catégorie.";
+
+"No entries found.\n\nTap on + to add a new entry." = "Rien na été trouvé.\n\nTapez sur + pour ajouter une nouvelle entrée.";
+
+"Social" = "Social";
+
+"I use to track my mobile expenses using Expense Manager. Download it from AppStore. \n https://itunes.apple.com/us/app/expensemobile/id931178948?ls=1&mt=8" = "Je utilise des dépenses mobile pour suivre mes dépenses quotidiennes . Téléchargez-le sur AppStore \n https://itunes.apple.com/us/app/expensemobile/id931178948?ls=1&mt=8";
+
+"Please configure Facebook on your device settings." = "Se il vous plaît configurer Facebook sur les réglages de votre appareil.";
+
+"Please configure Twitter on your device settings." = "Se il vous plaît configurer Twitter sur les réglages de votre appareil.";
+
+"Sorry, Whatzapp is not installed on your device." = "Désolé , Whatzapp ne est pas installé sur votre appareil.";
+
+"My Points" = "Mes points";
+
+"My Profile" = "";
+
+"Leaderboard" = "Leaderboard";
+
+"Top Users" = "";
+
+"The more you interact with the app, the more points you can collect. Adding expense or income, Sharing in Social, Rating App in Appstore and clicking Ads will fetch more points. Get maximum points and become #1 in Top Users." = "Plus vous interagissez avec l'application , plus les points que vous pouvez gagner . Ajout de charges ou produits , en partageant Note App sociale , dans et en cliquant sur Appstore annonces ira chercher plus de points. Obtenez le maximum de points et de devenir n ° 1 à Top des utilisateurs .";
+
+"Voir le classement" = "";
+
+"Overall Points" = "Total des points";
+
+"App Usage" = "App utilisation";
+
+"Social Sharing" = "Partage social";
+
+"Ad Clicks" = "Ad clics";
+
+"Do you want to sign in to Game Center?" = "Voulez-vous vous connecter à Game Center?";
+
+"FAQ" = "FAQ";
+
+"Sync" = "Sync";
+
+"Upgrade" = "Acheter premium";
+
+"Developer Apps" = "Developer Apps";
+
+"Sorry, Unable to make payments." = "Sorry, Unable to make payments.";
+
+"Sorry, Unable to purchase now. Please try later." = "Sorry, Unable to purchase now. Please try later.";
+
+"Your purchase was restored successfully." = "Your purchase was restored successfully.";
+
+"Sorry, Unable to restore purchase now. Please try later." = "Sorry, Unable to restore purchase now. Please try later.";
+
+"Your purchase was successful. Thank you for upgrading." = "Your purchase was successful. Thank you for upgrading.";
+
+"Sorry, Unable to purchase now. Please try later." = "Sorry, Unable to purchase now. Please try later.";
+
+"Restore Purchase" = "Restore Purchase";
+
+"• Get information using widgets." = "• Get information using widgets.";
+
+"• iCloud sync." = "• iCloud sync.";
+
+"• New themes." = "• New themes.";
+
+"• Remove all adverts." = "• Remove all adverts.";
+
+"Get full version to unlock many features.";
+
+"Sorry, no network connection available. Please try again later." = "Sorry, no network connection available. Please try again later.";
+
+"Screen Lock" = "Screen Lock";

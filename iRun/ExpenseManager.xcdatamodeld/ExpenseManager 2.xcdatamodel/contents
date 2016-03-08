@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CategoryGroup" representedClassName="CategoryGroup" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorCode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isExpense" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="misc" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="expenseRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Expense" inverseName="categoryRelationship" inverseEntity="Expense" syncable="YES"/>
+    </entity>
+    <entity name="Expense" representedClassName="Expense" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="expenseId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isExpense" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isRecurring" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="misc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recurringDuration" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sectionIdentifier" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categoryRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryGroup" inverseName="expenseRelationship" inverseEntity="CategoryGroup" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CategoryGroup" positionX="-54" positionY="63" width="128" height="150"/>
+        <element name="Expense" positionX="-63" positionY="-18" width="128" height="238"/>
+    </elements>
+</model>
