@@ -166,7 +166,7 @@
         
         IRAddExpenseViewController *addExpenseViewController = [storyboard instantiateViewControllerWithIdentifier:@"AddExpenseViewController"];
         addExpenseViewController.type = EMAdd;
-        [frontNavigationController pushViewController:addExpenseViewController animated:NO];
+        [frontNavigationController pushViewController:addExpenseViewController animated:YES];
     }
 }
 
