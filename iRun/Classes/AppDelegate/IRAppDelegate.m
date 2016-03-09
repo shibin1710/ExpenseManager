@@ -9,6 +9,11 @@
 #import "IRAppDelegate.h"
 #import "IRApplicationController.h"
 #import "IRCommon.h"
+#import "IRMenuTableViewController.h"
+#import "SWRevealViewController.h"
+#import "IRHistoryViewController.h"
+#import "IRMainViewController.h"
+#import "IRAddExpenseViewController.h"
 
 @implementation IRAppDelegate
 {
@@ -113,6 +118,56 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    if ([shortcutItem.localizedTitle isEqualToString:@"History"])
+    {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+        IRHistoryViewController *historyViewController = (IRHistoryViewController*)[storyboard instantiateViewControllerWithIdentifier:@"HistoryViewController"];
+        UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:historyViewController];
+        IRMenuTableViewController *rearViewController = (IRMenuTableViewController*)[storyboard instantiateViewControllerWithIdentifier: @"Menu"];
+        
+        SWRevealViewController *mainRevealController = [[SWRevealViewController alloc]  init];
+        
+        mainRevealController.rearViewController = rearViewController;
+        mainRevealController.frontViewController= frontNavigationController;
+        
+        self.window.rootViewController = mainRevealController;
+    }
+    else if ([shortcutItem.localizedTitle isEqualToString:@"Overview"])
+    {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+        IRMainViewController *mainViewController = (IRMainViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+        UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+        IRMenuTableViewController *rearViewController = (IRMenuTableViewController*)[storyboard instantiateViewControllerWithIdentifier: @"Menu"];
+        
+        SWRevealViewController *mainRevealController = [[SWRevealViewController alloc]  init];
+        
+        mainRevealController.rearViewController = rearViewController;
+        mainRevealController.frontViewController= frontNavigationController;
+        
+        self.window.rootViewController = mainRevealController;
+    }
+    else if ([shortcutItem.localizedTitle isEqualToString:@"Add Expense"])
+    {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+        IRMainViewController *mainViewController = (IRMainViewController*)[storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+        UINavigationController *frontNavigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+        IRMenuTableViewController *rearViewController = (IRMenuTableViewController*)[storyboard instantiateViewControllerWithIdentifier: @"Menu"];
+        
+        SWRevealViewController *mainRevealController = [[SWRevealViewController alloc]  init];
+        
+        mainRevealController.rearViewController = rearViewController;
+        mainRevealController.frontViewController= frontNavigationController;
+        
+        self.window.rootViewController = mainRevealController;
+        
+        IRAddExpenseViewController *addExpenseViewController = [storyboard instantiateViewControllerWithIdentifier:@"AddExpenseViewController"];
+        addExpenseViewController.type = EMAdd;
+        [frontNavigationController pushViewController:addExpenseViewController animated:YES];
+    }
 }
 
 

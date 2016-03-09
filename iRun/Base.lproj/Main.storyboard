@@ -32,7 +32,7 @@
         <!--Menu Table View Controller-->
         <scene sceneID="iIj-XA-SrW">
             <objects>
-                <viewController id="bmn-Kl-XsW" customClass="IRMenuTableViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Menu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bmn-Kl-XsW" customClass="IRMenuTableViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A4O-PW-hRe"/>
                         <viewControllerLayoutGuide type="bottom" id="dyn-HE-Hj8"/>
