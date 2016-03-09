@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TimesSquare/TimesSquare.h>
+#import "TSQCalendarCell.h"
+#import "TSQCalendarMonthHeaderCell.h"
+#import "TSQCalendarRowCell.h"
+#import "TSQCalendarView.h"
+
+
+
 
 @protocol IRCalenderViewDelegate <NSObject>
 

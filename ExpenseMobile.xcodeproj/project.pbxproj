@@ -14,6 +14,10 @@
 		C8124FD719E9073B00FE80A1 /* IRContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8124FD619E9073B00FE80A1 /* IRContactViewController.m */; };
 		C81AF0B91B2C7C2D00301F19 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C81AF0B81B2C7C2D00301F19 /* StoreKit.framework */; };
 		C82976A71A6A5DC700A927AC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82976A61A6A5DC700A927AC /* GameKit.framework */; };
+		C8395EE51C908F2500EED1A7 /* TSQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8395EDE1C908F2500EED1A7 /* TSQCalendarCell.m */; };
+		C8395EE61C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8395EE01C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.m */; };
+		C8395EE71C908F2500EED1A7 /* TSQCalendarRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8395EE21C908F2500EED1A7 /* TSQCalendarRowCell.m */; };
+		C8395EE81C908F2500EED1A7 /* TSQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8395EE41C908F2500EED1A7 /* TSQCalendarView.m */; };
 		C844680219C74AC90084DB22 /* IRHistoryHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C844680119C74AC90084DB22 /* IRHistoryHeaderTableViewCell.m */; };
 		C844680719C74AD90084DB22 /* IRHIstoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C844680619C74AD90084DB22 /* IRHIstoryTableViewCell.m */; };
 		C84CCD201B2166B700A2BD6A /* IRBuyPremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CCD1F1B2166B700A2BD6A /* IRBuyPremiumViewController.m */; };
@@ -24,7 +28,6 @@
 		C84D5AA91B47A23300A33E65 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5AA81B47A23300A33E65 /* Reachability.m */; };
 		C84D5B551B47B27100A33E65 /* IRSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */; };
 		C84D5B591B47BA7500A33E65 /* PAPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5B581B47BA7500A33E65 /* PAPasscodeViewController.m */; };
-		C856322919E940C800F1DE59 /* libTimesSquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C856322319E93B0E00F1DE59 /* libTimesSquare.a */; };
 		C864ECF119B77CA800679F51 /* FPNumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C864ECEF19B77CA800679F51 /* FPNumberPadView.m */; };
 		C864ECF219B77CA800679F51 /* FPNumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C864ECF019B77CA800679F51 /* FPNumberPadView.xib */; };
 		C86738BC1A66DF97001B8F47 /* IRMyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86738BB1A66DF97001B8F47 /* IRMyPointsViewController.m */; };
@@ -89,13 +92,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C856322219E93B0E00F1DE59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C856321D19E93B0E00F1DE59 /* TimesSquare.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A806805B16700FD70071C71E;
-			remoteInfo = TimesSquare;
-		};
 		C8F6526119B0E17700D34E97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8F6523319B0E17700D34E97 /* Project object */;
@@ -116,6 +112,15 @@
 		C8124FD619E9073B00FE80A1 /* IRContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRContactViewController.m; path = Classes/ViewControllers/ContactUsViewController/IRContactViewController.m; sourceTree = "<group>"; };
 		C81AF0B81B2C7C2D00301F19 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C82976A61A6A5DC700A927AC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C8395EDB1C908F2500EED1A7 /* TimesSquare-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TimesSquare-Prefix.pch"; path = "TimesSquare/TimesSquare-Prefix.pch"; sourceTree = "<group>"; };
+		C8395EDD1C908F2500EED1A7 /* TSQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSQCalendarCell.h; path = TimesSquare/TSQCalendarCell.h; sourceTree = "<group>"; };
+		C8395EDE1C908F2500EED1A7 /* TSQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSQCalendarCell.m; path = TimesSquare/TSQCalendarCell.m; sourceTree = "<group>"; };
+		C8395EDF1C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSQCalendarMonthHeaderCell.h; path = TimesSquare/TSQCalendarMonthHeaderCell.h; sourceTree = "<group>"; };
+		C8395EE01C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSQCalendarMonthHeaderCell.m; path = TimesSquare/TSQCalendarMonthHeaderCell.m; sourceTree = "<group>"; };
+		C8395EE11C908F2500EED1A7 /* TSQCalendarRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSQCalendarRowCell.h; path = TimesSquare/TSQCalendarRowCell.h; sourceTree = "<group>"; };
+		C8395EE21C908F2500EED1A7 /* TSQCalendarRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSQCalendarRowCell.m; path = TimesSquare/TSQCalendarRowCell.m; sourceTree = "<group>"; };
+		C8395EE31C908F2500EED1A7 /* TSQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSQCalendarView.h; path = TimesSquare/TSQCalendarView.h; sourceTree = "<group>"; };
+		C8395EE41C908F2500EED1A7 /* TSQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSQCalendarView.m; path = TimesSquare/TSQCalendarView.m; sourceTree = "<group>"; };
 		C844680019C74AC90084DB22 /* IRHistoryHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRHistoryHeaderTableViewCell.h; path = Classes/CustomCells/IRHistoryHeaderTableViewCell.h; sourceTree = "<group>"; };
 		C844680119C74AC90084DB22 /* IRHistoryHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRHistoryHeaderTableViewCell.m; path = Classes/CustomCells/IRHistoryHeaderTableViewCell.m; sourceTree = "<group>"; };
 		C844680519C74AD90084DB22 /* IRHIstoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRHIstoryTableViewCell.h; path = Classes/CustomCells/IRHIstoryTableViewCell.h; sourceTree = "<group>"; };
@@ -136,7 +141,6 @@
 		C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRSecurityViewController.m; path = Classes/ViewControllers/SecurityViewController/IRSecurityViewController.m; sourceTree = "<group>"; };
 		C84D5B571B47BA7500A33E65 /* PAPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPasscodeViewController.h; path = "../../../Reusable_Components/PAPasscode-master/PAPasscode/PAPasscodeViewController.h"; sourceTree = "<group>"; };
 		C84D5B581B47BA7500A33E65 /* PAPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPasscodeViewController.m; path = "../../../Reusable_Components/PAPasscode-master/PAPasscode/PAPasscodeViewController.m"; sourceTree = "<group>"; };
-		C856321D19E93B0E00F1DE59 /* TimesSquare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TimesSquare.xcodeproj; sourceTree = "<group>"; };
 		C864ECEE19B77CA800679F51 /* FPNumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPNumberPadView.h; path = Classes/Components/NumberPad/FPNumberPadView.h; sourceTree = "<group>"; };
 		C864ECEF19B77CA800679F51 /* FPNumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPNumberPadView.m; path = Classes/Components/NumberPad/FPNumberPadView.m; sourceTree = "<group>"; };
 		C864ECF019B77CA800679F51 /* FPNumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FPNumberPadView.xib; path = Classes/Components/NumberPad/FPNumberPadView.xib; sourceTree = "<group>"; };
@@ -255,7 +259,6 @@
 			files = (
 				C81AF0B91B2C7C2D00301F19 /* StoreKit.framework in Frameworks */,
 				C82976A71A6A5DC700A927AC /* GameKit.framework in Frameworks */,
-				C856322919E940C800F1DE59 /* libTimesSquare.a in Frameworks */,
 				C809340619DEE78600F94FB2 /* Social.framework in Frameworks */,
 				C80933FE19DEA5A800F94FB2 /* iAd.framework in Frameworks */,
 				C8F42FD119BADC1100B3E49A /* EventKitUI.framework in Frameworks */,
@@ -360,14 +363,6 @@
 			name = PasswordLock;
 			sourceTree = "<group>";
 		};
-		C856321E19E93B0E00F1DE59 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C856322319E93B0E00F1DE59 /* libTimesSquare.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C864ECE819B77C4400679F51 /* NumberPad */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,7 +385,15 @@
 		C86FE26319E9362A0036B2E2 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				C856321D19E93B0E00F1DE59 /* TimesSquare.xcodeproj */,
+				C8395EDB1C908F2500EED1A7 /* TimesSquare-Prefix.pch */,
+				C8395EDD1C908F2500EED1A7 /* TSQCalendarCell.h */,
+				C8395EDE1C908F2500EED1A7 /* TSQCalendarCell.m */,
+				C8395EDF1C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.h */,
+				C8395EE01C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.m */,
+				C8395EE11C908F2500EED1A7 /* TSQCalendarRowCell.h */,
+				C8395EE21C908F2500EED1A7 /* TSQCalendarRowCell.m */,
+				C8395EE31C908F2500EED1A7 /* TSQCalendarView.h */,
+				C8395EE41C908F2500EED1A7 /* TSQCalendarView.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -908,12 +911,6 @@
 			mainGroup = C8F6523219B0E17700D34E97;
 			productRefGroup = C8F6523C19B0E17700D34E97 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = C856321E19E93B0E00F1DE59 /* Products */;
-					ProjectRef = C856321D19E93B0E00F1DE59 /* TimesSquare.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				C8F6523A19B0E17700D34E97 /* ExpenseManager */,
@@ -921,16 +918,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		C856322319E93B0E00F1DE59 /* libTimesSquare.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libTimesSquare.a;
-			remoteRef = C856322219E93B0E00F1DE59 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C8F6523919B0E17700D34E97 /* Resources */ = {
@@ -970,6 +957,7 @@
 				C84CCD201B2166B700A2BD6A /* IRBuyPremiumViewController.m in Sources */,
 				C8124FD719E9073B00FE80A1 /* IRContactViewController.m in Sources */,
 				C84CCD241B2168E900A2BD6A /* IRFAQViewController.m in Sources */,
+				C8395EE51C908F2500EED1A7 /* TSQCalendarCell.m in Sources */,
 				C8F6524B19B0E17700D34E97 /* main.m in Sources */,
 				C8F42FB219BA155D00B3E49A /* SBStackedBarChart.m in Sources */,
 				C864ECF119B77CA800679F51 /* FPNumberPadView.m in Sources */,
@@ -1005,11 +993,13 @@
 				C8F326DF19C3F8A7003190BF /* IRThemeViewController.m in Sources */,
 				C8EE9B8E19DB110E00E37A19 /* IRGamification.m in Sources */,
 				C8F42FFE19BAE2BA00B3E49A /* IRCalenderRowCell.m in Sources */,
+				C8395EE61C908F2500EED1A7 /* TSQCalendarMonthHeaderCell.m in Sources */,
 				C877182D19B8CC1900C264CF /* ExpenseManager.xcdatamodeld in Sources */,
 				C88987C61B16DE7600882D0D /* CategoryGroup.m in Sources */,
 				C8FB248D19BC2CB9007A874B /* IRCurrencyViewController.m in Sources */,
 				C84D5B591B47BA7500A33E65 /* PAPasscodeViewController.m in Sources */,
 				C8E0800A1A45A0E000C4A267 /* IRDistributionCollectionViewCell.m in Sources */,
+				C8395EE81C908F2500EED1A7 /* TSQCalendarView.m in Sources */,
 				C8AA01F919B1FD3000782C59 /* IRMenuTableViewCell.m in Sources */,
 				C8AA01C219B19E2F00782C59 /* SWRevealViewController.m in Sources */,
 				C8F326FD19C4AE6A003190BF /* Expense.m in Sources */,
@@ -1017,6 +1007,7 @@
 				C84D5B551B47B27100A33E65 /* IRSecurityViewController.m in Sources */,
 				C8AA01CB19B19E6E00782C59 /* IRMainViewController.m in Sources */,
 				C8D0100719C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.m in Sources */,
+				C8395EE71C908F2500EED1A7 /* TSQCalendarRowCell.m in Sources */,
 				C844680219C74AC90084DB22 /* IRHistoryHeaderTableViewCell.m in Sources */,
 				C8F326E819C3FA6C003190BF /* IRAddExpenseViewController.m in Sources */,
 			);
@@ -1165,6 +1156,10 @@
 				GCC_PREFIX_HEADER = "iRun/ExpenseManager-Prefix.pch";
 				INFOPLIST_FILE = "iRun/ExpenseManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iRun",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ExpenseMobile;
 				PRODUCT_NAME = ExpenseManager;
@@ -1186,6 +1181,10 @@
 				GCC_PREFIX_HEADER = "iRun/ExpenseManager-Prefix.pch";
 				INFOPLIST_FILE = "iRun/ExpenseManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iRun",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ExpenseMobile;
 				PRODUCT_NAME = ExpenseManager;

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Shibin. All rights reserved.
 //
 
-#import <TimesSquare/TimesSquare.h>
+#import "TSQCalendarRowCell.h"
 
 @interface IRCalenderRowCell : TSQCalendarRowCell
 
