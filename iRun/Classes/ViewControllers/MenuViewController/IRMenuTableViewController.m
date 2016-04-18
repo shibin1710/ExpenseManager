@@ -100,13 +100,13 @@
         case 3:
             cell.name.text = [IRCommon localizeText:@"Settings"];
             break;
-        case 4:
-            cell.name.text = [IRCommon localizeText:@"My Points"];
-            break;
+//        case 4:
+//            cell.name.text = [IRCommon localizeText:@"My Points"];
+//            break;
 //        case 5:
 //            cell.name.text = [IRCommon localizeText:@"Sync"];
 //            break;
-        case 6:
+        case 4:
             cell.name.text = [IRCommon localizeText:@"Upgrade"];
             break;
         case 5:
@@ -142,16 +142,16 @@
         UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
         [navController setViewControllers: @[settingsViewController] animated: NO ];
         [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
-    } else if (indexPath.row == 4) {
+    } //else if (indexPath.row == 4) {
 //        IRDistributionViewController *distributionViewController = (IRDistributionViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"IRDistributionViewController"];
 //        UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
 //        [navController setViewControllers: @[distributionViewController] animated: NO ];
 //        [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
-        IRMyPointsViewController *myPointsViewController = (IRMyPointsViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"IRMyPointsViewController"];
-        UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
-        [navController setViewControllers: @[myPointsViewController] animated: NO ];
-        [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
-    }
+//        IRMyPointsViewController *myPointsViewController = (IRMyPointsViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"IRMyPointsViewController"];
+//        UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
+//        [navController setViewControllers: @[myPointsViewController] animated: NO ];
+//        [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
+//    }
 //    else if (indexPath.row == 5) {
 //        
 //        if ([IRCommon isFullVersion]) {
@@ -165,7 +165,7 @@
 //        }
 //        
 //    }
-    else if (indexPath.row == 6) {
+    else if (indexPath.row == 4) {
         IRBuyPremiumViewController *buyPremiumViewController = (IRBuyPremiumViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"IRBuyPremiumViewController"];
         UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
         [navController setViewControllers: @[buyPremiumViewController] animated: NO ];

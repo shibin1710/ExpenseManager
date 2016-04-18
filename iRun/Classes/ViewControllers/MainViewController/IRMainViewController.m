@@ -85,7 +85,7 @@
         self.overviewTextArray = [[IRGamification sharedInstance]getArrayOfOverViewTextForExpenseOnly];
     }
     self.pageControl.numberOfPages = self.overviewTextArray.count;
-    [self authenticateLocalPlayer];
+//    [self authenticateLocalPlayer];
 }
 
 - (void)viewWillAppear:(BOOL)animated
