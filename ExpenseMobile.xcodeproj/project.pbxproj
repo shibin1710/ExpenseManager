@@ -27,7 +27,7 @@
 		C84CCD2F1B217C4A00A2BD6A /* IRAppsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CCD2E1B217C4A00A2BD6A /* IRAppsTableViewCell.m */; };
 		C84D5AA91B47A23300A33E65 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5AA81B47A23300A33E65 /* Reachability.m */; };
 		C84D5B551B47B27100A33E65 /* IRSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */; };
-		C84D5B591B47BA7500A33E65 /* PAPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5B581B47BA7500A33E65 /* PAPasscodeViewController.m */; };
+		C8617C081CFDDD0A00D9C9AC /* PAPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */; };
 		C864ECF119B77CA800679F51 /* FPNumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C864ECEF19B77CA800679F51 /* FPNumberPadView.m */; };
 		C864ECF219B77CA800679F51 /* FPNumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C864ECF019B77CA800679F51 /* FPNumberPadView.xib */; };
 		C86738BC1A66DF97001B8F47 /* IRMyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86738BB1A66DF97001B8F47 /* IRMyPointsViewController.m */; };
@@ -139,8 +139,8 @@
 		C84D5AA81B47A23300A33E65 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Components/Reachability/Reachability.m; sourceTree = "<group>"; };
 		C84D5B531B47B27100A33E65 /* IRSecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRSecurityViewController.h; path = Classes/ViewControllers/SecurityViewController/IRSecurityViewController.h; sourceTree = "<group>"; };
 		C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRSecurityViewController.m; path = Classes/ViewControllers/SecurityViewController/IRSecurityViewController.m; sourceTree = "<group>"; };
-		C84D5B571B47BA7500A33E65 /* PAPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPasscodeViewController.h; path = "../../../Reusable_Components/PAPasscode-master/PAPasscode/PAPasscodeViewController.h"; sourceTree = "<group>"; };
-		C84D5B581B47BA7500A33E65 /* PAPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPasscodeViewController.m; path = "../../../Reusable_Components/PAPasscode-master/PAPasscode/PAPasscodeViewController.m"; sourceTree = "<group>"; };
+		C8617C061CFDDD0A00D9C9AC /* PAPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPasscodeViewController.h; path = Classes/Components/PasswordLock/PAPasscodeViewController.h; sourceTree = "<group>"; };
+		C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPasscodeViewController.m; path = Classes/Components/PasswordLock/PAPasscodeViewController.m; sourceTree = "<group>"; };
 		C864ECEE19B77CA800679F51 /* FPNumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPNumberPadView.h; path = Classes/Components/NumberPad/FPNumberPadView.h; sourceTree = "<group>"; };
 		C864ECEF19B77CA800679F51 /* FPNumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPNumberPadView.m; path = Classes/Components/NumberPad/FPNumberPadView.m; sourceTree = "<group>"; };
 		C864ECF019B77CA800679F51 /* FPNumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FPNumberPadView.xib; path = Classes/Components/NumberPad/FPNumberPadView.xib; sourceTree = "<group>"; };
@@ -357,8 +357,8 @@
 		C84D5B561B47BA4100A33E65 /* PasswordLock */ = {
 			isa = PBXGroup;
 			children = (
-				C84D5B571B47BA7500A33E65 /* PAPasscodeViewController.h */,
-				C84D5B581B47BA7500A33E65 /* PAPasscodeViewController.m */,
+				C8617C061CFDDD0A00D9C9AC /* PAPasscodeViewController.h */,
+				C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */,
 			);
 			name = PasswordLock;
 			sourceTree = "<group>";
@@ -970,6 +970,7 @@
 				C84CCD2F1B217C4A00A2BD6A /* IRAppsTableViewCell.m in Sources */,
 				C8AA01D019B19E9E00782C59 /* IRAppDelegate.m in Sources */,
 				C84D5AA91B47A23300A33E65 /* Reachability.m in Sources */,
+				C8617C081CFDDD0A00D9C9AC /* PAPasscodeViewController.m in Sources */,
 				C8E080071A45A09800C4A267 /* XYPieChart.m in Sources */,
 				C877182619B8B9C800C264CF /* IRCategoryTableViewCell.m in Sources */,
 				C8E080031A45829E00C4A267 /* IRDistributionViewController.m in Sources */,
@@ -997,7 +998,6 @@
 				C877182D19B8CC1900C264CF /* ExpenseManager.xcdatamodeld in Sources */,
 				C88987C61B16DE7600882D0D /* CategoryGroup.m in Sources */,
 				C8FB248D19BC2CB9007A874B /* IRCurrencyViewController.m in Sources */,
-				C84D5B591B47BA7500A33E65 /* PAPasscodeViewController.m in Sources */,
 				C8E0800A1A45A0E000C4A267 /* IRDistributionCollectionViewCell.m in Sources */,
 				C8395EE81C908F2500EED1A7 /* TSQCalendarView.m in Sources */,
 				C8AA01F919B1FD3000782C59 /* IRMenuTableViewCell.m in Sources */,
