@@ -36,7 +36,7 @@
     [IRCommon updateAppUsagePointsWithValue:1];
     self.applyThemeColorLabel.text = [IRCommon localizeText:@"Apply theme color to category icons"];
     self.navigationItem.title = [IRCommon localizeText:@"Theme"];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:[IRCommon localizeText:@"Apply"] style:UIBarButtonItemStyleBordered target:self action:@selector(didTouchUpInsideApplyButton)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:[IRCommon localizeText:@"Apply"] style:UIBarButtonItemStylePlain target:self action:@selector(didTouchUpInsideApplyButton)];
     selectedIndex = [[NSUserDefaults standardUserDefaults]objectForKey:@"color"];
     self.themeSwitch.onTintColor = [IRCommon getThemeColor];
     self.themeSwitch.on = ([[[NSUserDefaults standardUserDefaults]objectForKey:@"applyThemeForIcons"]boolValue]) ? YES : NO;

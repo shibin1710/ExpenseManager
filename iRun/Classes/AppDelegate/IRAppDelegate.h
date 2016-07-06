@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PAPasscodeViewController.h"
 
-@interface IRAppDelegate : UIResponder <UIApplicationDelegate,PAPasscodeViewControllerDelegate>
+@interface IRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
