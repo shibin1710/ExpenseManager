@@ -68,8 +68,7 @@ static const CGFloat TSQCalendarMonthHeaderCellMonthsHeight = 20.f;
     }
     
     for (NSUInteger index = 0; index < self.daysInWeek; index++) {
-#warning check NSCalendarUnitWeekOfYear or day
-        NSInteger ordinality = [self.calendar ordinalityOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitWeekOfYear forDate:referenceDate];
+        NSInteger ordinality = [self.calendar ordinalityOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitWeekOfMonth forDate:referenceDate];
         UILabel *label = [[UILabel alloc] initWithFrame:self.frame];
         label.textAlignment = NSTextAlignmentCenter;
         label.text = [dayFormatter stringFromDate:referenceDate];
