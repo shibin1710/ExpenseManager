@@ -15,8 +15,6 @@
 #import "IRMainViewController.h"
 #import "IRCategoryViewController.h"
 #import "IRHistoryViewController.h"
-#import "IRDistributionViewController.h"
-#import "IRMyPointsViewController.h"
 #import "IRBuyPremiumViewController.h"
 #import "IRMenuTableViewController.h"
 #import "IRFAQViewController.h"

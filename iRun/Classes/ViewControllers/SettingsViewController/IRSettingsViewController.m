@@ -17,7 +17,6 @@
 #import "IRExpense.h"
 #import "IRContactViewController.h"
 #import "IRAppsViewController.h"
-#import "IRSecurityViewController.h"
 
 @interface IRSettingsViewController ()
 
@@ -219,8 +218,6 @@
     if (indexPath.section == 0) {
         IRCurrencyViewController *currencyViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"CurrencyViewController"];
         IRGeneralSettingsViewController *generalSettingsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"GeneralSettingsViewController"];
-        IRSecurityViewController *securityViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"IRSecurityViewController"];
-//        IRCategoryViewController *categoryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"AddCategory"];
         IRThemeViewController *themeViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ThemeViewController"];
         switch (indexPath.row) {
             case 0:
@@ -239,11 +236,6 @@
                 break;
             case 3:
                 
-//                if (![IRCommon isFullVersion]) {
-//                    [IRCommon showAlertWithTitle:APPLICATION_NAME message:@"This feature is available only in 'Pro' version. Go to 'Upgrade' option in menu to get 'Pro' version." dismissButtonText:OK_TEXT];
-//                    return;
-//                }
-                [self.navigationController pushViewController:securityViewController animated:YES];
                 
                 break;
                 

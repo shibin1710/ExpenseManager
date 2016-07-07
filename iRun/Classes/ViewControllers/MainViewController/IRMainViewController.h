@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "iAd/iAd.h"
-#import "PAPasscodeViewController.h"
 
-@interface IRMainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,ADBannerViewDelegate,PAPasscodeViewControllerDelegate>
+@interface IRMainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,ADBannerViewDelegate>
 
 
 @end

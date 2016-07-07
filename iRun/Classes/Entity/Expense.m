@@ -53,7 +53,7 @@
          Sections are organized by month and year. Create the section identifier as a string representing the number (year * 1000) + month; this way they will be correctly ordered chronologically regardless of the actual name of the month.
          */
         NSCalendar *calendar = [NSCalendar currentCalendar];
-        NSDateComponents *components = [calendar components:(NSYearCalendarUnit | NSMonthCalendarUnit | NSWeekOfYearCalendarUnit | NSDayCalendarUnit) fromDate:[self date]];
+        NSDateComponents *components = [calendar components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitWeekOfYear | NSCalendarUnitDay) fromDate:[self date]];
         switch ([IRCommon getGroupingName]) {
             case WeeklyGrouping:
                 tmp = [NSString stringWithFormat:@"%ld", ([components year] * 100000) + [components month]*100 + [components weekOfYear]];

@@ -131,7 +131,7 @@
             dateComponents.yearForWeekOfYear = year;
             dateComponents.month = month;
             dateComponents.weekOfYear = week;
-            NSCalendar *calender = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+            NSCalendar *calender = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
             NSDate *date = [calender dateFromComponents:dateComponents];
             titleString = [formatter stringFromDate:date];
         }

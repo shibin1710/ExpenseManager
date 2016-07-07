@@ -26,11 +26,8 @@
 		C84CCD2C1B2174D800A2BD6A /* IRAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CCD2B1B2174D800A2BD6A /* IRAppsViewController.m */; };
 		C84CCD2F1B217C4A00A2BD6A /* IRAppsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CCD2E1B217C4A00A2BD6A /* IRAppsTableViewCell.m */; };
 		C84D5AA91B47A23300A33E65 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5AA81B47A23300A33E65 /* Reachability.m */; };
-		C84D5B551B47B27100A33E65 /* IRSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */; };
-		C8617C081CFDDD0A00D9C9AC /* PAPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */; };
 		C864ECF119B77CA800679F51 /* FPNumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C864ECEF19B77CA800679F51 /* FPNumberPadView.m */; };
 		C864ECF219B77CA800679F51 /* FPNumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C864ECF019B77CA800679F51 /* FPNumberPadView.xib */; };
-		C86738BC1A66DF97001B8F47 /* IRMyPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86738BB1A66DF97001B8F47 /* IRMyPointsViewController.m */; };
 		C86738BF1A66E987001B8F47 /* IRPointsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C86738BE1A66E987001B8F47 /* IRPointsTableViewCell.m */; };
 		C877182319B8B54800C264CF /* ExpenseCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = C877182219B8B54800C264CF /* ExpenseCategory.plist */; };
 		C877182619B8B9C800C264CF /* IRCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C877182519B8B9C800C264CF /* IRCategoryTableViewCell.m */; };
@@ -51,9 +48,6 @@
 		C8AA01FD19B20D3000782C59 /* IRSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA01FC19B20D3000782C59 /* IRSettingsViewController.m */; };
 		C8C013021A584878002F7CE4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C013041A584878002F7CE4 /* Localizable.strings */; };
 		C8D0100719C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D0100619C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.m */; };
-		C8E080031A45829E00C4A267 /* IRDistributionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E080021A45829E00C4A267 /* IRDistributionViewController.m */; };
-		C8E080071A45A09800C4A267 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E080061A45A09800C4A267 /* XYPieChart.m */; };
-		C8E0800A1A45A0E000C4A267 /* IRDistributionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E080091A45A0E000C4A267 /* IRDistributionCollectionViewCell.m */; };
 		C8E10B7C1B4CF368006CEF9F /* FAQ.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8E10B751B4CF368006CEF9F /* FAQ.plist */; };
 		C8E10B7D1B4CF368006CEF9F /* IRFAQAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E10B771B4CF368006CEF9F /* IRFAQAnswerCell.m */; };
 		C8E10B7E1B4CF368006CEF9F /* IRFAQQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E10B791B4CF368006CEF9F /* IRFAQQuestionCell.m */; };
@@ -137,15 +131,9 @@
 		C84CCD2E1B217C4A00A2BD6A /* IRAppsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRAppsTableViewCell.m; path = Classes/CustomCells/IRAppsTableViewCell.m; sourceTree = "<group>"; };
 		C84D5AA71B47A23300A33E65 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Components/Reachability/Reachability.h; sourceTree = "<group>"; };
 		C84D5AA81B47A23300A33E65 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Components/Reachability/Reachability.m; sourceTree = "<group>"; };
-		C84D5B531B47B27100A33E65 /* IRSecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRSecurityViewController.h; path = Classes/ViewControllers/SecurityViewController/IRSecurityViewController.h; sourceTree = "<group>"; };
-		C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRSecurityViewController.m; path = Classes/ViewControllers/SecurityViewController/IRSecurityViewController.m; sourceTree = "<group>"; };
-		C8617C061CFDDD0A00D9C9AC /* PAPasscodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PAPasscodeViewController.h; path = Classes/Components/PasswordLock/PAPasscodeViewController.h; sourceTree = "<group>"; };
-		C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PAPasscodeViewController.m; path = Classes/Components/PasswordLock/PAPasscodeViewController.m; sourceTree = "<group>"; };
 		C864ECEE19B77CA800679F51 /* FPNumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPNumberPadView.h; path = Classes/Components/NumberPad/FPNumberPadView.h; sourceTree = "<group>"; };
 		C864ECEF19B77CA800679F51 /* FPNumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FPNumberPadView.m; path = Classes/Components/NumberPad/FPNumberPadView.m; sourceTree = "<group>"; };
 		C864ECF019B77CA800679F51 /* FPNumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FPNumberPadView.xib; path = Classes/Components/NumberPad/FPNumberPadView.xib; sourceTree = "<group>"; };
-		C86738BA1A66DF97001B8F47 /* IRMyPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRMyPointsViewController.h; path = Classes/ViewControllers/MyPointsViewController/IRMyPointsViewController.h; sourceTree = "<group>"; };
-		C86738BB1A66DF97001B8F47 /* IRMyPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRMyPointsViewController.m; path = Classes/ViewControllers/MyPointsViewController/IRMyPointsViewController.m; sourceTree = "<group>"; };
 		C86738BD1A66E987001B8F47 /* IRPointsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRPointsTableViewCell.h; path = Classes/CustomCells/IRPointsTableViewCell.h; sourceTree = "<group>"; };
 		C86738BE1A66E987001B8F47 /* IRPointsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRPointsTableViewCell.m; path = Classes/CustomCells/IRPointsTableViewCell.m; sourceTree = "<group>"; };
 		C877182219B8B54800C264CF /* ExpenseCategory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExpenseCategory.plist; sourceTree = "<group>"; };
@@ -186,12 +174,6 @@
 		C8C013051A58487D002F7CE4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C8D0100519C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRGeneralSettingsTableViewCell.h; path = Classes/CustomCells/IRGeneralSettingsTableViewCell.h; sourceTree = "<group>"; };
 		C8D0100619C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRGeneralSettingsTableViewCell.m; path = Classes/CustomCells/IRGeneralSettingsTableViewCell.m; sourceTree = "<group>"; };
-		C8E080011A45829E00C4A267 /* IRDistributionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRDistributionViewController.h; path = Classes/ViewControllers/DistributionViewController/IRDistributionViewController.h; sourceTree = "<group>"; };
-		C8E080021A45829E00C4A267 /* IRDistributionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRDistributionViewController.m; path = Classes/ViewControllers/DistributionViewController/IRDistributionViewController.m; sourceTree = "<group>"; };
-		C8E080051A45A09800C4A267 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
-		C8E080061A45A09800C4A267 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
-		C8E080081A45A0E000C4A267 /* IRDistributionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRDistributionCollectionViewCell.h; path = Classes/CustomCells/IRDistributionCollectionViewCell.h; sourceTree = "<group>"; };
-		C8E080091A45A0E000C4A267 /* IRDistributionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRDistributionCollectionViewCell.m; path = Classes/CustomCells/IRDistributionCollectionViewCell.m; sourceTree = "<group>"; };
 		C8E10B751B4CF368006CEF9F /* FAQ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FAQ.plist; path = FAQ/FAQ.plist; sourceTree = "<group>"; };
 		C8E10B761B4CF368006CEF9F /* IRFAQAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRFAQAnswerCell.h; path = FAQ/IRFAQAnswerCell.h; sourceTree = "<group>"; };
 		C8E10B771B4CF368006CEF9F /* IRFAQAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRFAQAnswerCell.m; path = FAQ/IRFAQAnswerCell.m; sourceTree = "<group>"; };
@@ -345,24 +327,6 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		C84D5B521B47B24A00A33E65 /* SecurityViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C84D5B531B47B27100A33E65 /* IRSecurityViewController.h */,
-				C84D5B541B47B27100A33E65 /* IRSecurityViewController.m */,
-			);
-			name = SecurityViewController;
-			sourceTree = "<group>";
-		};
-		C84D5B561B47BA4100A33E65 /* PasswordLock */ = {
-			isa = PBXGroup;
-			children = (
-				C8617C061CFDDD0A00D9C9AC /* PAPasscodeViewController.h */,
-				C8617C071CFDDD0A00D9C9AC /* PAPasscodeViewController.m */,
-			);
-			name = PasswordLock;
-			sourceTree = "<group>";
-		};
 		C864ECE819B77C4400679F51 /* NumberPad */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,15 +335,6 @@
 				C864ECF019B77CA800679F51 /* FPNumberPadView.xib */,
 			);
 			name = NumberPad;
-			sourceTree = "<group>";
-		};
-		C86738B41A66DF0D001B8F47 /* MyPointsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C86738BA1A66DF97001B8F47 /* IRMyPointsViewController.h */,
-				C86738BB1A66DF97001B8F47 /* IRMyPointsViewController.m */,
-			);
-			name = MyPointsViewController;
 			sourceTree = "<group>";
 		};
 		C86FE26319E9362A0036B2E2 /* Library */ = {
@@ -478,13 +433,10 @@
 		C8AA01BB19B19DF900782C59 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C84D5B521B47B24A00A33E65 /* SecurityViewController */,
 				C84CCD291B21749700A2BD6A /* AppsViewController */,
 				C84CCD251B21708F00A2BD6A /* SyncViewController */,
 				C84CCD211B2168CA00A2BD6A /* FAQViewController */,
 				C84CCD1B1B21669000A2BD6A /* BuyPremiumViewController */,
-				C86738B41A66DF0D001B8F47 /* MyPointsViewController */,
-				C8E07FFE1A45826600C4A267 /* DistributionViewController */,
 				C8124FD419E9071700FE80A1 /* ContactUsViewController */,
 				C8F326F119C486ED003190BF /* GeneralSettingsViewController */,
 				C8F326EC19C4745D003190BF /* HistoryViewController */,
@@ -515,9 +467,7 @@
 		C8AA01BD19B19E0800782C59 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				C84D5B561B47BA4100A33E65 /* PasswordLock */,
 				C84D5AA41B47A20D00A33E65 /* Reachability */,
-				C8E080041A45A04100C4A267 /* PieChart */,
 				C8EE9B8619DB10B300E37A19 /* Gamification */,
 				C8EDF80219D916A500E56178 /* Notification */,
 				C8F42FAC19BA151900B3E49A /* StackedBarChart */,
@@ -618,8 +568,6 @@
 				C844680619C74AD90084DB22 /* IRHIstoryTableViewCell.m */,
 				C879727119C9F8D400C85CAF /* IRHomeCollectionCell.h */,
 				C879727219C9F8D400C85CAF /* IRHomeCollectionCell.m */,
-				C8E080081A45A0E000C4A267 /* IRDistributionCollectionViewCell.h */,
-				C8E080091A45A0E000C4A267 /* IRDistributionCollectionViewCell.m */,
 				C86738BD1A66E987001B8F47 /* IRPointsTableViewCell.h */,
 				C86738BE1A66E987001B8F47 /* IRPointsTableViewCell.m */,
 				C84CCD2D1B217C4A00A2BD6A /* IRAppsTableViewCell.h */,
@@ -635,24 +583,6 @@
 				C8AA01FC19B20D3000782C59 /* IRSettingsViewController.m */,
 			);
 			name = SettingsViewController;
-			sourceTree = "<group>";
-		};
-		C8E07FFE1A45826600C4A267 /* DistributionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				C8E080011A45829E00C4A267 /* IRDistributionViewController.h */,
-				C8E080021A45829E00C4A267 /* IRDistributionViewController.m */,
-			);
-			name = DistributionViewController;
-			sourceTree = "<group>";
-		};
-		C8E080041A45A04100C4A267 /* PieChart */ = {
-			isa = PBXGroup;
-			children = (
-				C8E080051A45A09800C4A267 /* XYPieChart.h */,
-				C8E080061A45A09800C4A267 /* XYPieChart.m */,
-			);
-			name = PieChart;
 			sourceTree = "<group>";
 		};
 		C8EDF80219D916A500E56178 /* Notification */ = {
@@ -877,7 +807,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = IR;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Shibin;
 				TargetAttributes = {
 					C8F6523A19B0E17700D34E97 = {
@@ -965,15 +895,11 @@
 				C8F326EF19C47487003190BF /* IRHistoryViewController.m in Sources */,
 				C8EDF80B19DA865F00E56178 /* IRApplicationController.m in Sources */,
 				C8FB249E19BC4FE5007A874B /* IRCategory.m in Sources */,
-				C86738BC1A66DF97001B8F47 /* IRMyPointsViewController.m in Sources */,
 				C8F326EB19C408F5003190BF /* IRThemeCollectionViewCell.m in Sources */,
 				C84CCD2F1B217C4A00A2BD6A /* IRAppsTableViewCell.m in Sources */,
 				C8AA01D019B19E9E00782C59 /* IRAppDelegate.m in Sources */,
 				C84D5AA91B47A23300A33E65 /* Reachability.m in Sources */,
-				C8617C081CFDDD0A00D9C9AC /* PAPasscodeViewController.m in Sources */,
-				C8E080071A45A09800C4A267 /* XYPieChart.m in Sources */,
 				C877182619B8B9C800C264CF /* IRCategoryTableViewCell.m in Sources */,
-				C8E080031A45829E00C4A267 /* IRDistributionViewController.m in Sources */,
 				C8AA01C819B19E5D00782C59 /* IRMenuTableViewController.m in Sources */,
 				C84CCD2C1B2174D800A2BD6A /* IRAppsViewController.m in Sources */,
 				C8AA01FD19B20D3000782C59 /* IRSettingsViewController.m in Sources */,
@@ -998,13 +924,11 @@
 				C877182D19B8CC1900C264CF /* ExpenseManager.xcdatamodeld in Sources */,
 				C88987C61B16DE7600882D0D /* CategoryGroup.m in Sources */,
 				C8FB248D19BC2CB9007A874B /* IRCurrencyViewController.m in Sources */,
-				C8E0800A1A45A0E000C4A267 /* IRDistributionCollectionViewCell.m in Sources */,
 				C8395EE81C908F2500EED1A7 /* TSQCalendarView.m in Sources */,
 				C8AA01F919B1FD3000782C59 /* IRMenuTableViewCell.m in Sources */,
 				C8AA01C219B19E2F00782C59 /* SWRevealViewController.m in Sources */,
 				C8F326FD19C4AE6A003190BF /* Expense.m in Sources */,
 				C8F326E519C3F9E8003190BF /* IRCategoryViewController.m in Sources */,
-				C84D5B551B47B27100A33E65 /* IRSecurityViewController.m in Sources */,
 				C8AA01CB19B19E6E00782C59 /* IRMainViewController.m in Sources */,
 				C8D0100719C5FCBB00285A30 /* IRGeneralSettingsTableViewCell.m in Sources */,
 				C8395EE71C908F2500EED1A7 /* TSQCalendarRowCell.m in Sources */,
@@ -1089,6 +1013,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shibin S (HT6N7H85E8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shibin S (HT6N7H85E8)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1103,7 +1028,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "85d391e0-9d40-4af3-a9a3-96458b723405";
 				SDKROOT = iphoneos;
@@ -1137,7 +1062,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PROVISIONING_PROFILE = "85d391e0-9d40-4af3-a9a3-96458b723405";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1155,7 +1080,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRun/ExpenseManager-Prefix.pch";
 				INFOPLIST_FILE = "iRun/ExpenseManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iRun",
@@ -1180,7 +1105,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRun/ExpenseManager-Prefix.pch";
 				INFOPLIST_FILE = "iRun/ExpenseManager-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iRun",
@@ -1210,6 +1135,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "iRunTests/ExpenseManagerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ExpenseManagerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1228,6 +1154,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iRun/iRun-Prefix.pch";
 				INFOPLIST_FILE = "iRunTests/ExpenseManagerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibin.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ExpenseManagerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
